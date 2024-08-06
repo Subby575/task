@@ -16,7 +16,7 @@ const VideoDubberCard = () => {
                 <div className="py-4">
                     <nav className="text-sm text-gray-600">
 
-                        <a href="#" className="hover:underline">Home</a> &gt; <a href="#" className="hover:underline">Product</a> &gt; <span>VideoDubber - Fast Video Translator</span>
+                        <a href="#" className="hover:text-blue-600 text-gray-400">Home</a> &gt; <a href="#" className="hover:text-blue-600 text-gray-400">Product</a> &gt; <span>VideoDubber - Fast Video Translator</span>
                     </nav>
                     <div className='lg:flex '>
 
