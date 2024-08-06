@@ -18,25 +18,26 @@ const VideoDubberCard = () => {
 
                         <a href="#" className="hover:underline">Home</a> &gt; <a href="#" className="hover:underline">Product</a> &gt; <span>VideoDubber - Fast Video Translator</span>
                     </nav>
-                    <div className='lg:flex'>
+                    <div className='lg:flex '>
 
-                    <div className='lg:w-1/2 w-full '>
+                    <div className='lg:w-2/3 w-full pr-4 '>
 
-                            <Image src="/logo.avif" alt="Lip Icon" width={80} height={80} className='mt-12' />
+                            <Image src="/logo.avif" alt="Lip Icon" width={80} height={80} className='mt-8' />
                             <div className="mt-4 flex items-center">
-                                <h1 className="ml-2 text-2xl font-semibold">VideoDubber - Fast Video Translator</h1>
+                                <h1 className="ml-2 text-[22px] font-semibold">VideoDubber - Fast Video Translator</h1><Image height={20} width={20} src='/drop.svg'/>
                             </div>
-                            <p className="mt-2 font-thin text-2xl text-gray-900">Translate videos in your own voice, globalize in a click!</p>
+                            <p className="mt-2 font-light text-[20px] text-gray-900">Translate videos in your own voice, globalize in a click!</p>
                      </div>
 
                  
-                    <div className="mt-4 flex items-center lg:w-1/2 lg:mt-[14rem]">
-                        <button className="border-1 border border-gray-300 text-black px-4 py-2 outline-2 rounded-md mr-2 w-2/3">
-                            Visit &darr;
+                    <div className="mt-4 flex items-center lg:w-[18rem] lg:mt-[10rem]">
+                        <button className="border-1 border border-gray-300 text-black px-4 py-5 outline-2 rounded-md mr-2 w-[20rem]">
+                            <span className='flex mx-3 px-1'>Visit <Image height={20} width={20} src='/drop.svg'/>
+                                </span>
                         </button>
-                        <a  className="hover:bg-gradient-to-r from-pink-500 to-yellow-500 hover:text-white border-red-600 border-1 border px-8 py-2 rounded-md flex items-center w-full cursor-pointer">
-                            <span className="mr-1 ml-4 text-sm text-red-500 ">▲</span> UPVOTED 161
-                        </a>
+                        <button  className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white border-red-600 border-1 border w-[40rem] py-5 rounded-md cursor-pointer text-[13px] ">
+                            <span className="  text-white ">▲</span> UPVOTE 161
+                        </button>
 
                     </div>
                     </div>
